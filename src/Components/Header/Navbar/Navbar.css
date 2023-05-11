@@ -1,0 +1,32 @@
+.menuli li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(41, 87, 236);
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 50%;
+  position: relative;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.popup {
+  position: absolute;
+  right: 30px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(182, 181, 179);
+}

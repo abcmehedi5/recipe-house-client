@@ -1,0 +1,97 @@
+.chef-card {
+  height: 300px;
+  text-align: justify;
+  background-color: rgb(248, 241, 218);
+}
+
+.chef-card img {
+  height: 200px;
+  width: 100%;
+  border: 1px solid rgb(223, 218, 218);
+}
+.chef-card p {
+  text-align: justify;
+}
+.chef-card h6 {
+  font-size: 16px;
+}
+
+.btn-chef {
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*---------------- view recips css start ---------------------- */
+.view-header {
+  background-color: #d1cec6;
+  height: 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 19, 0.8),
+      hsla(0, 0%, 11%, 0.7)
+    ),
+    url(https://cdn.hellofresh.com/us/greenchef/landing-pages/diet-meal-plan/Paleo-Cuban-pork-chops-with-mojo-sauce.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.view-recipes-container {
+  background-color: #f3f2ef;
+  border-radius: 10px;
+}
+.chef-recipe-about img {
+  width: 600px;
+  height: 300px;
+}
+.chef-recipe-about-right {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* responsive design */
+@media only screen and (max-width: 600px) {
+  .view-header {
+    height: 100%;
+    padding: 10px;
+  }
+  .chef-recipe-about img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*---------------- view recips css end ---------------------- */
+
+/*---------------------- recipe start ------------------------------ */
+
+.recipe-card {
+  background-color: white;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.recipe-card-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.recipe-info-header {
+  height: 200px;
+  background-color: #eaf0ed;
+}
+.recipe-info-header img {
+  width: 100%;
+  height: 200px;
+}
+
+/*---------------------- recipe end ------------------------------ */
